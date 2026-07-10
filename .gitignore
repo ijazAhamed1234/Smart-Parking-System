@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+mlPackage/venv/
+venv/
+ENV/
+env/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Production/Build outputs
+frontend_backend/dist/
+dist/
+out/
+build/
+
+# Firebase / Service Account Secrets
+*serviceAccountKey.json
+*.local.json
+secrets.json
+*.env
+*.env.local
+*.env.*.local
+
+# ML Models and large dataset directories
+mlPackage/Dataset/
+mlPackage/runs/
+*.pt
+*.onnx
+*.engine
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
